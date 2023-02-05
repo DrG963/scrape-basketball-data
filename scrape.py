@@ -41,9 +41,4 @@ for tr in table_2_content:
 
 
 df = pd.DataFrame(table_1_data + table_2_data)
-df.to_csv('C:\\Users\\grbsk\\Downloads\\test.csv', index=False)
-
-# with open("C:\\Users\\grbsk\\Downloads\\test.csv", "w+") as f:
-#     wr = csv.DictWriter(f, delimiter="\t",fieldnames=list(table_1_data[0].keys()))
-#     wr.writeheader()
-#     wr.writerows(table_1_data)
+df.to_csv('C:\\Users\\your_user_dir\\Downloads\\test.csv', index=False)
